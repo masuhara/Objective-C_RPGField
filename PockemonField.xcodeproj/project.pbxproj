@@ -14,6 +14,12 @@
 		AFD48DA11B2D41E2001A6C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DA01B2D41E2001A6C97 /* Images.xcassets */; };
 		AFD48DA41B2D41E2001A6C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DA21B2D41E2001A6C97 /* LaunchScreen.xib */; };
 		AFD48DB01B2D41E2001A6C97 /* PockemonFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD48DAF1B2D41E2001A6C97 /* PockemonFieldTests.m */; };
+		AFD48DBD1B2D4224001A6C97 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DBA1B2D4224001A6C97 /* Default-568h@2x.png */; };
+		AFD48DBE1B2D4224001A6C97 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DBB1B2D4224001A6C97 /* Default-667h@2x.png */; };
+		AFD48DBF1B2D4224001A6C97 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DBC1B2D4224001A6C97 /* Default-736h@3x.png */; };
+		AFD48DC21B2D432F001A6C97 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD48DC11B2D432F001A6C97 /* GameView.m */; };
+		AFD48DC51B2D4E62001A6C97 /* weed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DC41B2D4E62001A6C97 /* weed@2x.png */; };
+		AFD48DC71B2D4F12001A6C97 /* tree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFD48DC61B2D4F12001A6C97 /* tree@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		AFD48DA91B2D41E2001A6C97 /* PockemonFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PockemonFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD48DAE1B2D41E2001A6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD48DAF1B2D41E2001A6C97 /* PockemonFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PockemonFieldTests.m; sourceTree = "<group>"; };
+		AFD48DBA1B2D4224001A6C97 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AFD48DBB1B2D4224001A6C97 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		AFD48DBC1B2D4224001A6C97 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		AFD48DC01B2D432F001A6C97 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		AFD48DC11B2D432F001A6C97 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		AFD48DC41B2D4E62001A6C97 /* weed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weed@2x.png"; sourceTree = "<group>"; };
+		AFD48DC61B2D4F12001A6C97 /* tree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tree@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +94,13 @@
 		AFD48D921B2D41E2001A6C97 /* PockemonField */ = {
 			isa = PBXGroup;
 			children = (
+				AFD48DC31B2D4E08001A6C97 /* Images */,
 				AFD48D971B2D41E2001A6C97 /* AppDelegate.h */,
 				AFD48D981B2D41E2001A6C97 /* AppDelegate.m */,
 				AFD48D9A1B2D41E2001A6C97 /* ViewController.h */,
 				AFD48D9B1B2D41E2001A6C97 /* ViewController.m */,
+				AFD48DC01B2D432F001A6C97 /* GameView.h */,
+				AFD48DC11B2D432F001A6C97 /* GameView.m */,
 				AFD48D9D1B2D41E2001A6C97 /* Main.storyboard */,
 				AFD48DA01B2D41E2001A6C97 /* Images.xcassets */,
 				AFD48DA21B2D41E2001A6C97 /* LaunchScreen.xib */,
@@ -96,6 +112,7 @@
 		AFD48D931B2D41E2001A6C97 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFD48DB91B2D4224001A6C97 /* Defaults */,
 				AFD48D941B2D41E2001A6C97 /* Info.plist */,
 				AFD48D951B2D41E2001A6C97 /* main.m */,
 			);
@@ -117,6 +134,25 @@
 				AFD48DAE1B2D41E2001A6C97 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFD48DB91B2D4224001A6C97 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				AFD48DBA1B2D4224001A6C97 /* Default-568h@2x.png */,
+				AFD48DBB1B2D4224001A6C97 /* Default-667h@2x.png */,
+				AFD48DBC1B2D4224001A6C97 /* Default-736h@3x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		AFD48DC31B2D4E08001A6C97 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AFD48DC61B2D4F12001A6C97 /* tree@2x.png */,
+				AFD48DC41B2D4E62001A6C97 /* weed@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +235,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD48DC71B2D4F12001A6C97 /* tree@2x.png in Resources */,
 				AFD48D9F1B2D41E2001A6C97 /* Main.storyboard in Resources */,
+				AFD48DBD1B2D4224001A6C97 /* Default-568h@2x.png in Resources */,
 				AFD48DA41B2D41E2001A6C97 /* LaunchScreen.xib in Resources */,
 				AFD48DA11B2D41E2001A6C97 /* Images.xcassets in Resources */,
+				AFD48DBE1B2D4224001A6C97 /* Default-667h@2x.png in Resources */,
+				AFD48DC51B2D4E62001A6C97 /* weed@2x.png in Resources */,
+				AFD48DBF1B2D4224001A6C97 /* Default-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +262,7 @@
 			files = (
 				AFD48D9C1B2D41E2001A6C97 /* ViewController.m in Sources */,
 				AFD48D991B2D41E2001A6C97 /* AppDelegate.m in Sources */,
+				AFD48DC21B2D432F001A6C97 /* GameView.m in Sources */,
 				AFD48D961B2D41E2001A6C97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

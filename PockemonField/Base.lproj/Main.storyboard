@@ -18,6 +18,11 @@
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k8K-To-p5o" customClass="GameView">
                                 <rect key="frame" x="10" y="36" width="300" height="300"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k7h-f8-nLF" customClass="Character">
+                                        <rect key="frame" x="130" y="231" width="40" height="40"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjg-NS-mKt">
@@ -67,6 +72,7 @@
                     </view>
                     <connections>
                         <outlet property="gameView" destination="k8K-To-p5o" id="2fA-RV-w6D"/>
+                        <outlet property="heroView" destination="k7h-f8-nLF" id="B36-gK-foN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

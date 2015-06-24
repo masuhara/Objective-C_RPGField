@@ -17,7 +17,6 @@
 
 @implementation GameView {
     NSMutableArray *tileArray;
-    
 }
 
 // コードで初期化する場合
@@ -31,7 +30,7 @@
 }
 
 // xib を使用する場合
--(id)initWithCoder:(NSCoder *)aDecoder {
+- (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if(self) {
         [self initializeView];
@@ -40,7 +39,7 @@
     return self;
 }
 
--(void)initializeView {
+- (void)initializeView {
     self.backgroundColor = [UIColor blackColor];
     UIImage *backgroundImage = [UIImage imageNamed:@"weed.png"];
     UIImage *treeImage = [UIImage imageNamed:@"tree.png"];

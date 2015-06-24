@@ -8,23 +8,30 @@
 
 #import "ViewController.h"
 #import "GameView.h"
+#import "Character.h"
 
-@interface ViewController ()
+@interface ViewController ()<CharacterDelegate>
 
 @end
 
 @implementation ViewController {
     IBOutlet GameView *gameView;
+    IBOutlet Character *heroView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    heroView.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)go:(int)direction {
+    NSLog(@"go");
+}
+
 
 @end

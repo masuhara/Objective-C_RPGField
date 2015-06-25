@@ -33,40 +33,29 @@
 }
 
 - (void)initializeView {
+    
+    self.direction = 0;
+    
     // Front
-    self.image = [UIImage imageNamed:@""];
+    /*
+    self.image = [UIImage imageNamed:@"hero-back-a"];
     if (!walkTimer) {
-        /*
-        walkTimer = [NSTimer scheduledTimerWithTimeInterval:0.4 target:self selector:@selector(go:) userInfo:nil repeats:YES];
+        
+        walkTimer = [NSTimer scheduledTimerWithTimeInterval:0.4 target:self selector:@selector(walk: withDirection:) userInfo:nil repeats:YES];
         [walkTimer fire];
-         */
     }
+     */
 }
 
-- (void)go:(int)direction {
-    if ([self.delegate respondsToSelector:@selector(go:)]) {
-        [self.delegate go:direction];
+- (void)walk:(UIImage *)charaImage withDirection:(int)direction {
+    /*
+    if ([self.delegate respondsToSelector:@selector(walk: withDirection:)]) {
+        [self.delegate walk:charaImage withDirection:self.direction];
     }
-    NSLog(@"direction == %d", direction);
-    switch (direction) {
-        case 0:
-            
-            break;
-        case 1:
-            
-            break;
-        case 2:
-            
-            break;
-        case 3:
-            
-            break;
-            
-        default:
-            break;
-    }
-}
+     */
 
+    //NSLog(@"direction == %d", direction);
+}
 
 
 

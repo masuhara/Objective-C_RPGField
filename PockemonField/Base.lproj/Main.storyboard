@@ -31,6 +31,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goLeft:" destination="vXZ-lx-hvc" eventType="touchDown" id="ES4-dG-jHm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULQ-98-OM7">
                                 <rect key="frame" x="104" y="426" width="40" height="30"/>
@@ -38,6 +41,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goRight:" destination="vXZ-lx-hvc" eventType="touchDown" id="pfc-xf-1j8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9q-16-5yU">
                                 <rect key="frame" x="72" y="459" width="30" height="40"/>
@@ -45,6 +51,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goBack:" destination="vXZ-lx-hvc" eventType="touchDown" id="f88-T4-zFi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-06-jp9">
                                 <rect key="frame" x="72" y="383" width="30" height="40"/>
@@ -52,6 +61,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goForward:" destination="vXZ-lx-hvc" eventType="touchDown" id="KQk-rK-SN7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKq-w2-fzd">
                                 <rect key="frame" x="194" y="446" width="44" height="44"/>
@@ -72,6 +84,10 @@
                     </view>
                     <connections>
                         <outlet property="gameView" destination="k8K-To-p5o" id="2fA-RV-w6D"/>
+                        <outlet property="goBackButton" destination="b9q-16-5yU" id="oeV-Qs-3ct"/>
+                        <outlet property="goForwardButton" destination="bcq-06-jp9" id="Uoo-HA-MNg"/>
+                        <outlet property="goLeftButton" destination="kjg-NS-mKt" id="q3f-4g-PE6"/>
+                        <outlet property="goRightButton" destination="ULQ-98-OM7" id="FgT-wi-MyI"/>
                         <outlet property="heroView" destination="k7h-f8-nLF" id="B36-gK-foN"/>
                     </connections>
                 </viewController>

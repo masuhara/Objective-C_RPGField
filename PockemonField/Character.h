@@ -11,13 +11,14 @@
 // デリゲートを定義
 @protocol CharacterDelegate <NSObject>
 
-- (void)go:(int)direction;
+//- (void)walk:(UIImage *)charaImage withDirection:(int)direction;
 
 @end
 
-@interface Character : UIImageView
+@interface Character : UIImageView <UIGestureRecognizerDelegate>
 
-@property (nonatomic, assign) id<CharacterDelegate> delegate;
+@property (nonatomic, assign)id<CharacterDelegate> delegate;
+@property (nonatomic)int direction;
 
 
 @end

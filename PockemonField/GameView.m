@@ -19,7 +19,7 @@
     NSMutableArray *tileArray;
 }
 
-// コードで初期化する場合
+// initWithCode
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if(self) {
@@ -29,7 +29,7 @@
     return self;
 }
 
-// xib を使用する場合
+// initWithXib
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if(self) {
@@ -50,6 +50,7 @@
     }
     for (int i = 0; i < HEIGHT / TILE_HEIGHT; i++) {
         for (int j = 0; j < WIDTH / TILE_WIDTH; j++) {
+            /*
             UIImageView *tileView = [[UIImageView alloc] initWithFrame:CGRectMake(TILE_WIDTH * j, TILE_HEIGHT * i, TILE_WIDTH, TILE_HEIGHT)];
             if (j % 2 == 0) {
                 if (i % 2 == 0) {
@@ -66,6 +67,7 @@
             }
             [tileArray addObject:tileView];
             [self addSubview:tileView];
+             */
         }
     }
 }

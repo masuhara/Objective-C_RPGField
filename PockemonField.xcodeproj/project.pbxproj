@@ -16,6 +16,25 @@
 		AFB657271B2FF11300C6AFE2 /* hero-left-b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB6571F1B2FF11300C6AFE2 /* hero-left-b@2x.png */; };
 		AFB657281B2FF11300C6AFE2 /* hero-right-a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB657201B2FF11300C6AFE2 /* hero-right-a@2x.png */; };
 		AFB657291B2FF11300C6AFE2 /* hero-right-b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB657211B2FF11300C6AFE2 /* hero-right-b@2x.png */; };
+		AFB6586F1B3D215800C6AFE2 /* HUTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB6584D1B3D215700C6AFE2 /* HUTransitionAnimator.m */; };
+		AFB658701B3D215800C6AFE2 /* HUTransitionGhostAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB6584F1B3D215700C6AFE2 /* HUTransitionGhostAnimator.m */; };
+		AFB658711B3D215800C6AFE2 /* HUTransitionHorizontalLinesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB658511B3D215700C6AFE2 /* HUTransitionHorizontalLinesAnimator.m */; };
+		AFB658721B3D215800C6AFE2 /* HUTransitionVerticalLinesAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB658531B3D215700C6AFE2 /* HUTransitionVerticalLinesAnimator.m */; };
+		AFB658731B3D215800C6AFE2 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB658551B3D215700C6AFE2 /* Main_iPad.storyboard */; };
+		AFB658741B3D215800C6AFE2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB658571B3D215700C6AFE2 /* Main_iPhone.storyboard */; };
+		AFB658751B3D215800C6AFE2 /* bikesign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB658591B3D215700C6AFE2 /* bikesign.jpg */; };
+		AFB658761B3D215800C6AFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB6585A1B3D215700C6AFE2 /* InfoPlist.strings */; };
+		AFB658771B3D215800C6AFE2 /* HUAnimatorDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFB6585C1B3D215700C6AFE2 /* HUAnimatorDemo-Info.plist */; };
+		AFB658781B3D215800C6AFE2 /* HUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB6585F1B3D215700C6AFE2 /* HUAppDelegate.m */; };
+		AFB658791B3D215800C6AFE2 /* HUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB658611B3D215700C6AFE2 /* HUViewController.m */; };
+		AFB6587A1B3D215800C6AFE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB658621B3D215700C6AFE2 /* Images.xcassets */; };
+		AFB6587B1B3D215800C6AFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB658631B3D215700C6AFE2 /* main.m */; };
+		AFB6587C1B3D215800C6AFE2 /* toilet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB658641B3D215700C6AFE2 /* toilet.jpg */; };
+		AFB6587D1B3D215800C6AFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB658691B3D215800C6AFE2 /* InfoPlist.strings */; };
+		AFB6587E1B3D215800C6AFE2 /* HUAnimatorDemoTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFB6586B1B3D215800C6AFE2 /* HUAnimatorDemoTests-Info.plist */; };
+		AFB6587F1B3D215800C6AFE2 /* HUAnimatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB6586C1B3D215800C6AFE2 /* HUAnimatorDemoTests.m */; };
+		AFB658801B3D215800C6AFE2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AFB6586D1B3D215800C6AFE2 /* README.md */; };
+		AFB658811B3D215800C6AFE2 /* UNLICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = AFB6586E1B3D215800C6AFE2 /* UNLICENSE.txt */; };
 		AFD48D961B2D41E2001A6C97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD48D951B2D41E2001A6C97 /* main.m */; };
 		AFD48D991B2D41E2001A6C97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD48D981B2D41E2001A6C97 /* AppDelegate.m */; };
 		AFD48D9C1B2D41E2001A6C97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD48D9B1B2D41E2001A6C97 /* ViewController.m */; };
@@ -32,6 +51,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AFB658841B3D215800C6AFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB658651B3D215700C6AFE2 /* HUAnimatorDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA34502817EB560000538433;
+			remoteInfo = HUAnimatorDemo;
+		};
+		AFB658861B3D215800C6AFE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB658651B3D215700C6AFE2 /* HUAnimatorDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA34504C17EB560000538433;
+			remoteInfo = HUAnimatorDemoTests;
+		};
 		AFD48DAA1B2D41E2001A6C97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AFD48D881B2D41E2001A6C97 /* Project object */;
@@ -52,6 +85,33 @@
 		AFB6571F1B2FF11300C6AFE2 /* hero-left-b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hero-left-b@2x.png"; sourceTree = "<group>"; };
 		AFB657201B2FF11300C6AFE2 /* hero-right-a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hero-right-a@2x.png"; sourceTree = "<group>"; };
 		AFB657211B2FF11300C6AFE2 /* hero-right-b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hero-right-b@2x.png"; sourceTree = "<group>"; };
+		AFB6584C1B3D215700C6AFE2 /* HUTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionAnimator.h; sourceTree = "<group>"; };
+		AFB6584D1B3D215700C6AFE2 /* HUTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionAnimator.m; sourceTree = "<group>"; };
+		AFB6584E1B3D215700C6AFE2 /* HUTransitionGhostAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionGhostAnimator.h; sourceTree = "<group>"; };
+		AFB6584F1B3D215700C6AFE2 /* HUTransitionGhostAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionGhostAnimator.m; sourceTree = "<group>"; };
+		AFB658501B3D215700C6AFE2 /* HUTransitionHorizontalLinesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionHorizontalLinesAnimator.h; sourceTree = "<group>"; };
+		AFB658511B3D215700C6AFE2 /* HUTransitionHorizontalLinesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionHorizontalLinesAnimator.m; sourceTree = "<group>"; };
+		AFB658521B3D215700C6AFE2 /* HUTransitionVerticalLinesAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUTransitionVerticalLinesAnimator.h; sourceTree = "<group>"; };
+		AFB658531B3D215700C6AFE2 /* HUTransitionVerticalLinesAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUTransitionVerticalLinesAnimator.m; sourceTree = "<group>"; };
+		AFB658561B3D215700C6AFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AFB658581B3D215700C6AFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AFB658591B3D215700C6AFE2 /* bikesign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikesign.jpg; sourceTree = "<group>"; };
+		AFB6585B1B3D215700C6AFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB6585C1B3D215700C6AFE2 /* HUAnimatorDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HUAnimatorDemo-Info.plist"; sourceTree = "<group>"; };
+		AFB6585D1B3D215700C6AFE2 /* HUAnimatorDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HUAnimatorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AFB6585E1B3D215700C6AFE2 /* HUAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUAppDelegate.h; sourceTree = "<group>"; };
+		AFB6585F1B3D215700C6AFE2 /* HUAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUAppDelegate.m; sourceTree = "<group>"; };
+		AFB658601B3D215700C6AFE2 /* HUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUViewController.h; sourceTree = "<group>"; };
+		AFB658611B3D215700C6AFE2 /* HUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUViewController.m; sourceTree = "<group>"; };
+		AFB658621B3D215700C6AFE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFB658631B3D215700C6AFE2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB658641B3D215700C6AFE2 /* toilet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toilet.jpg; sourceTree = "<group>"; };
+		AFB658651B3D215700C6AFE2 /* HUAnimatorDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HUAnimatorDemo.xcodeproj; sourceTree = "<group>"; };
+		AFB6586A1B3D215800C6AFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB6586B1B3D215800C6AFE2 /* HUAnimatorDemoTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HUAnimatorDemoTests-Info.plist"; sourceTree = "<group>"; };
+		AFB6586C1B3D215800C6AFE2 /* HUAnimatorDemoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUAnimatorDemoTests.m; sourceTree = "<group>"; };
+		AFB6586D1B3D215800C6AFE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AFB6586E1B3D215800C6AFE2 /* UNLICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UNLICENSE.txt; sourceTree = "<group>"; };
 		AFD48D901B2D41E2001A6C97 /* PockemonField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PockemonField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD48D941B2D41E2001A6C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD48D951B2D41E2001A6C97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +167,81 @@
 			path = Hero;
 			sourceTree = "<group>";
 		};
+		AFB658491B3D212000C6AFE2 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AFB6584A1B3D215700C6AFE2 /* HUAnimator */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		AFB6584A1B3D215700C6AFE2 /* HUAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				AFB6584B1B3D215700C6AFE2 /* HUAnimator */,
+				AFB658541B3D215700C6AFE2 /* HUAnimatorDemo */,
+				AFB658651B3D215700C6AFE2 /* HUAnimatorDemo.xcodeproj */,
+				AFB658681B3D215800C6AFE2 /* HUAnimatorDemoTests */,
+				AFB6586D1B3D215800C6AFE2 /* README.md */,
+				AFB6586E1B3D215800C6AFE2 /* UNLICENSE.txt */,
+			);
+			path = HUAnimator;
+			sourceTree = "<group>";
+		};
+		AFB6584B1B3D215700C6AFE2 /* HUAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				AFB6584C1B3D215700C6AFE2 /* HUTransitionAnimator.h */,
+				AFB6584D1B3D215700C6AFE2 /* HUTransitionAnimator.m */,
+				AFB6584E1B3D215700C6AFE2 /* HUTransitionGhostAnimator.h */,
+				AFB6584F1B3D215700C6AFE2 /* HUTransitionGhostAnimator.m */,
+				AFB658501B3D215700C6AFE2 /* HUTransitionHorizontalLinesAnimator.h */,
+				AFB658511B3D215700C6AFE2 /* HUTransitionHorizontalLinesAnimator.m */,
+				AFB658521B3D215700C6AFE2 /* HUTransitionVerticalLinesAnimator.h */,
+				AFB658531B3D215700C6AFE2 /* HUTransitionVerticalLinesAnimator.m */,
+			);
+			path = HUAnimator;
+			sourceTree = "<group>";
+		};
+		AFB658541B3D215700C6AFE2 /* HUAnimatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AFB658551B3D215700C6AFE2 /* Main_iPad.storyboard */,
+				AFB658571B3D215700C6AFE2 /* Main_iPhone.storyboard */,
+				AFB658591B3D215700C6AFE2 /* bikesign.jpg */,
+				AFB6585A1B3D215700C6AFE2 /* InfoPlist.strings */,
+				AFB6585C1B3D215700C6AFE2 /* HUAnimatorDemo-Info.plist */,
+				AFB6585D1B3D215700C6AFE2 /* HUAnimatorDemo-Prefix.pch */,
+				AFB6585E1B3D215700C6AFE2 /* HUAppDelegate.h */,
+				AFB6585F1B3D215700C6AFE2 /* HUAppDelegate.m */,
+				AFB658601B3D215700C6AFE2 /* HUViewController.h */,
+				AFB658611B3D215700C6AFE2 /* HUViewController.m */,
+				AFB658621B3D215700C6AFE2 /* Images.xcassets */,
+				AFB658631B3D215700C6AFE2 /* main.m */,
+				AFB658641B3D215700C6AFE2 /* toilet.jpg */,
+			);
+			path = HUAnimatorDemo;
+			sourceTree = "<group>";
+		};
+		AFB658661B3D215800C6AFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB658851B3D215800C6AFE2 /* HUAnimatorDemo.app */,
+				AFB658871B3D215800C6AFE2 /* HUAnimatorDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB658681B3D215800C6AFE2 /* HUAnimatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB658691B3D215800C6AFE2 /* InfoPlist.strings */,
+				AFB6586B1B3D215800C6AFE2 /* HUAnimatorDemoTests-Info.plist */,
+				AFB6586C1B3D215800C6AFE2 /* HUAnimatorDemoTests.m */,
+			);
+			path = HUAnimatorDemoTests;
+			sourceTree = "<group>";
+		};
 		AFD48D871B2D41E2001A6C97 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +263,7 @@
 		AFD48D921B2D41E2001A6C97 /* PockemonField */ = {
 			isa = PBXGroup;
 			children = (
+				AFB658491B3D212000C6AFE2 /* Animation */,
 				AFD48DC31B2D4E08001A6C97 /* Images */,
 				AFD48D971B2D41E2001A6C97 /* AppDelegate.h */,
 				AFD48D981B2D41E2001A6C97 /* AppDelegate.m */,
@@ -259,6 +395,12 @@
 			mainGroup = AFD48D871B2D41E2001A6C97;
 			productRefGroup = AFD48D911B2D41E2001A6C97 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AFB658661B3D215800C6AFE2 /* Products */;
+					ProjectRef = AFB658651B3D215700C6AFE2 /* HUAnimatorDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AFD48D8F1B2D41E2001A6C97 /* PockemonField */,
@@ -267,24 +409,51 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		AFB658851B3D215800C6AFE2 /* HUAnimatorDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HUAnimatorDemo.app;
+			remoteRef = AFB658841B3D215800C6AFE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFB658871B3D215800C6AFE2 /* HUAnimatorDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HUAnimatorDemoTests.xctest;
+			remoteRef = AFB658861B3D215800C6AFE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		AFD48D8E1B2D41E2001A6C97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AFD48DC71B2D4F12001A6C97 /* tree@2x.png in Resources */,
+				AFB6587D1B3D215800C6AFE2 /* InfoPlist.strings in Resources */,
 				AFB657281B2FF11300C6AFE2 /* hero-right-a@2x.png in Resources */,
+				AFB658751B3D215800C6AFE2 /* bikesign.jpg in Resources */,
+				AFB6587E1B3D215800C6AFE2 /* HUAnimatorDemoTests-Info.plist in Resources */,
+				AFB658811B3D215800C6AFE2 /* UNLICENSE.txt in Resources */,
 				AFD48D9F1B2D41E2001A6C97 /* Main.storyboard in Resources */,
 				AFB657241B2FF11300C6AFE2 /* hero-front-a@2x.png in Resources */,
+				AFB658731B3D215800C6AFE2 /* Main_iPad.storyboard in Resources */,
 				AFD48DBD1B2D4224001A6C97 /* Default-568h@2x.png in Resources */,
+				AFB6587C1B3D215800C6AFE2 /* toilet.jpg in Resources */,
 				AFD48DA41B2D41E2001A6C97 /* LaunchScreen.xib in Resources */,
 				AFB657231B2FF11300C6AFE2 /* hero-back-b@2x.png in Resources */,
+				AFB658761B3D215800C6AFE2 /* InfoPlist.strings in Resources */,
+				AFB658771B3D215800C6AFE2 /* HUAnimatorDemo-Info.plist in Resources */,
 				AFB657221B2FF11300C6AFE2 /* hero-back-a@2x.png in Resources */,
 				AFB657291B2FF11300C6AFE2 /* hero-right-b@2x.png in Resources */,
 				AFD48DA11B2D41E2001A6C97 /* Images.xcassets in Resources */,
 				AFB657271B2FF11300C6AFE2 /* hero-left-b@2x.png in Resources */,
+				AFB6587A1B3D215800C6AFE2 /* Images.xcassets in Resources */,
 				AFD48DBE1B2D4224001A6C97 /* Default-667h@2x.png in Resources */,
 				AFD48DC51B2D4E62001A6C97 /* weed@2x.png in Resources */,
+				AFB658741B3D215800C6AFE2 /* Main_iPhone.storyboard in Resources */,
 				AFD48DBF1B2D4224001A6C97 /* Default-736h@3x.png in Resources */,
 				AFB657251B2FF11300C6AFE2 /* hero-front-b@2x.png in Resources */,
 				AFB657261B2FF11300C6AFE2 /* hero-left-a@2x.png in Resources */,
@@ -305,11 +474,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB658711B3D215800C6AFE2 /* HUTransitionHorizontalLinesAnimator.m in Sources */,
+				AFB658781B3D215800C6AFE2 /* HUAppDelegate.m in Sources */,
+				AFB6586F1B3D215800C6AFE2 /* HUTransitionAnimator.m in Sources */,
 				AFD48D9C1B2D41E2001A6C97 /* ViewController.m in Sources */,
 				AFB657181B2FEDF100C6AFE2 /* Character.m in Sources */,
+				AFB6587F1B3D215800C6AFE2 /* HUAnimatorDemoTests.m in Sources */,
+				AFB658791B3D215800C6AFE2 /* HUViewController.m in Sources */,
+				AFB658721B3D215800C6AFE2 /* HUTransitionVerticalLinesAnimator.m in Sources */,
 				AFD48D991B2D41E2001A6C97 /* AppDelegate.m in Sources */,
 				AFD48DC21B2D432F001A6C97 /* GameView.m in Sources */,
+				AFB658801B3D215800C6AFE2 /* README.md in Sources */,
 				AFD48D961B2D41E2001A6C97 /* main.m in Sources */,
+				AFB6587B1B3D215800C6AFE2 /* main.m in Sources */,
+				AFB658701B3D215800C6AFE2 /* HUTransitionGhostAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +510,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AFB658551B3D215700C6AFE2 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB658561B3D215700C6AFE2 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB658571B3D215700C6AFE2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB658581B3D215700C6AFE2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB6585A1B3D215700C6AFE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB6585B1B3D215700C6AFE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFB658691B3D215800C6AFE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB6586A1B3D215800C6AFE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		AFD48D9D1B2D41E2001A6C97 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

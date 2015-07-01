@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "GameView.h"
 #import "Character.h"
-#import "HUTransitionAnimator.h"
 
 @interface ViewController ()<CharacterDelegate, UIGestureRecognizerDelegate>
 

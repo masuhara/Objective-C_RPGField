@@ -42,7 +42,7 @@
 - (void)initializeView {
     self.backgroundColor = [UIColor blackColor];
     UIImage *backgroundImage = [UIImage imageNamed:@"weed.png"];
-    UIImage *treeImage = [UIImage imageNamed:@"tree.png"];
+    //UIImage *treeImage = [UIImage imageNamed:@"tree.png"];
     self.backgroundColor = [UIColor colorWithPatternImage:backgroundImage];
     
     if (!tileArray) {

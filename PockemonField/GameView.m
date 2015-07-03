@@ -48,6 +48,7 @@
     if (!tileArray) {
         tileArray = [NSMutableArray new];
     }
+    
     for (int i = 0; i < HEIGHT / TILE_HEIGHT; i++) {
         for (int j = 0; j < WIDTH / TILE_WIDTH; j++) {
             /*
